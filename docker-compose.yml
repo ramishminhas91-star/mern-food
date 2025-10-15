@@ -49,7 +49,7 @@ services:
     container_name: admin
     restart: unless-stopped
     ports:
-      - "4000:80"
+      - "4001:80"
     depends_on:
       - backend
 
